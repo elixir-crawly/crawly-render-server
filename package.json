@@ -1,0 +1,20 @@
+{
+  "name": "crawly_render_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "express": "^4.18.2",
+    "http-proxy": "^1.18.1",
+    "mocha": "^10.2.0",
+    "puppeteer": "^21.0.3"
+  }
+}
