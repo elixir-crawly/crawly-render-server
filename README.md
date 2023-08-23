@@ -27,7 +27,7 @@ npm install
 To start the Crawly Render Server, use the following command:
 
 ``` sh
-node render.js
+node cluster.js
 ```
 
 The server will listen on port 3000 by default. You can access the rendering endpoint at http://localhost:3000/render.
@@ -74,7 +74,7 @@ docker run -p 3000:3000 crawly-render-server
 The server will be accessible at http://localhost:3000.
 
 ## Configuration
-You can customize the Crawly Render Server by modifying the code in render.js. For example, you can adjust the server port or Puppeteer launch options.
+You can customize the Crawly Render Server by modifying the code in `cluster.js` For example, you can adjust the server port or Puppeteer launch options.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.

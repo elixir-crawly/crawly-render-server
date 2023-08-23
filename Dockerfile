@@ -31,4 +31,4 @@ EXPOSE 3000
 # Set environment variables
 ENV CHROME_EXECUTABLE_PATH=/usr/bin/google-chrome
 # Command to start your application
-CMD ["node", "render.js"]
+CMD ["node", "cluster.js"]
